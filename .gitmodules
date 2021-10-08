@@ -10,3 +10,6 @@
 [submodule "Keebio-Parts.pretty"]
 	path = Keebio-Parts.pretty
 	url = http://github.com/keebio/Keebio-Parts.pretty
+[submodule "quefrency-rev1-pcb"]
+	path = quefrency-rev1-pcb
+	url = http://github.com/keebio/quefrency-rev1-pcb
