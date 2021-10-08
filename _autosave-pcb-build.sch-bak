@@ -391,54 +391,18 @@ Wire Wire Line
 Wire Wire Line
 	3400 1200 3700 1200
 Connection ~ 3400 1200
-$Comp
-L Device:R_Small R?
-U 1 1 616344AA
-P 7650 1700
-F 0 "R?" V 7850 1700 50  0000 C CNN
-F 1 "22" V 7750 1700 50  0000 C CNN
-F 2 "" H 7650 1700 50  0001 C CNN
-F 3 "~" H 7650 1700 50  0001 C CNN
-	1    7650 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 6163AA56
-P 7650 1600
-F 0 "R?" V 7454 1600 50  0000 C CNN
-F 1 "22" V 7545 1600 50  0000 C CNN
-F 2 "" H 7650 1600 50  0001 C CNN
-F 3 "~" H 7650 1600 50  0001 C CNN
-	1    7650 1600
-	0    1    1    0   
-$EndComp
-Text GLabel 8000 1600 2    50   Input ~ 0
-D-
-Text GLabel 8000 1700 2    50   Input ~ 0
-D+
 Wire Wire Line
 	6600 1600 7200 1600
 Wire Wire Line
-	7750 1600 8000 1600
-Wire Wire Line
 	6600 1700 7000 1700
-Wire Wire Line
-	7750 1700 8000 1700
 Wire Wire Line
 	6600 1500 7000 1500
 Wire Wire Line
 	7000 1500 7000 1700
-Connection ~ 7000 1700
-Wire Wire Line
-	7000 1700 7550 1700
 Wire Wire Line
 	6600 1400 7200 1400
 Wire Wire Line
 	7200 1400 7200 1600
-Connection ~ 7200 1600
-Wire Wire Line
-	7200 1600 7550 1600
 Wire Wire Line
 	6600 1000 6750 1000
 Wire Wire Line
@@ -535,12 +499,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6165487C
-P 6900 2300
-F 0 "#PWR?" H 6900 2050 50  0001 C CNN
-F 1 "GND" H 6905 2127 50  0000 C CNN
-F 2 "" H 6900 2300 50  0001 C CNN
-F 3 "" H 6900 2300 50  0001 C CNN
-	1    6900 2300
+P 6900 2400
+F 0 "#PWR?" H 6900 2150 50  0001 C CNN
+F 1 "GND" H 6905 2227 50  0000 C CNN
+F 2 "" H 6900 2400 50  0001 C CNN
+F 3 "" H 6900 2400 50  0001 C CNN
+	1    6900 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -557,4 +521,76 @@ Wire Wire Line
 Wire Wire Line
 	7350 2100 7200 2100
 Connection ~ 7200 2100
+Wire Wire Line
+	9200 1700 9450 1700
+Wire Wire Line
+	9200 1600 9450 1600
+Text GLabel 9450 1700 2    50   Input ~ 0
+D+
+Text GLabel 9450 1600 2    50   Input ~ 0
+D-
+$Comp
+L Device:R_Small R?
+U 1 1 6163AA56
+P 9100 1600
+F 0 "R?" V 8904 1600 50  0000 C CNN
+F 1 "22" V 8995 1600 50  0000 C CNN
+F 2 "" H 9100 1600 50  0001 C CNN
+F 3 "~" H 9100 1600 50  0001 C CNN
+	1    9100 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 616344AA
+P 9100 1700
+F 0 "R?" V 9300 1700 50  0000 C CNN
+F 1 "22" V 9200 1700 50  0000 C CNN
+F 2 "" H 9100 1700 50  0001 C CNN
+F 3 "~" H 9100 1700 50  0001 C CNN
+	1    9100 1700
+	0    1    1    0   
+$EndComp
+Connection ~ 7000 1700
+Wire Wire Line
+	7200 1600 8000 1600
+Connection ~ 7200 1600
+Wire Wire Line
+	8800 2000 8900 2000
+Wire Wire Line
+	8900 2000 8900 1700
+Connection ~ 8900 1700
+Wire Wire Line
+	8900 1700 9000 1700
+Wire Wire Line
+	7000 1700 8900 1700
+Wire Wire Line
+	8200 2000 8000 2000
+Wire Wire Line
+	8000 2000 8000 1600
+Connection ~ 8000 1600
+Wire Wire Line
+	8000 1600 9000 1600
+Wire Wire Line
+	8900 2100 8900 2300
+Wire Wire Line
+	8900 2300 6900 2300
+Wire Wire Line
+	6900 2300 6900 2400
+Connection ~ 6900 2300
+Wire Wire Line
+	8800 2100 8900 2100
+$Comp
+L random-keyboard-parts:PRTR5V0U2X U?
+U 1 1 6167B8C5
+P 8500 2050
+F 0 "U?" H 8500 1763 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 8500 1869 60  0000 C CNN
+F 2 "" H 8500 2050 60  0001 C CNN
+F 3 "" H 8500 2050 60  0001 C CNN
+	1    8500 2050
+	-1   0    0    1   
+$EndComp
+Text Label 8100 2200 0    50   ~ 0
+VCC
 $EndSCHEMATC

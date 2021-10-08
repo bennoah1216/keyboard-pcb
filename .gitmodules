@@ -7,3 +7,6 @@
 [submodule "Type-C.pretty"]
 	path = Type-C.pretty
 	url = http://github.com/ai03-2725/Type-C.pretty
+[submodule "Keebio-Parts.pretty"]
+	path = Keebio-Parts.pretty
+	url = http://github.com/keebio/Keebio-Parts.pretty

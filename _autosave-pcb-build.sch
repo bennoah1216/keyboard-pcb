@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -593,4 +593,10 @@ F 3 "" H 8500 2050 60  0001 C CNN
 $EndComp
 Text Label 8100 2200 0    50   ~ 0
 VCC
+$Sheet
+S 2150 6650 2300 1000
+U 61696430
+F0 "matrix" 50
+F1 "matrix.sch" 50
+$EndSheet
 $EndSCHEMATC
