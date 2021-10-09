@@ -5,7 +5,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -598,7 +598,13 @@ VCC
 $Sheet
 S 2150 6650 2300 1000
 U 61696430
-F0 "matrix" 50
-F1 "matrix.sch" 50
+F0 "matrix left" 50
+F1 "matrixleft.sch" 50
+$EndSheet
+$Sheet
+S 4900 6950 1900 700 
+U 61780A51
+F0 "matrix right" 50
+F1 "matrixright.sch" 50
 $EndSheet
 $EndSCHEMATC
