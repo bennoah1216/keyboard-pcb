@@ -1,0 +1,1230 @@
+EESchema Schematic File Version 4
+LIBS:pcb-build-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 619A649F
+P 7750 2200
+F 0 "SW?" H 7750 2400 50  0000 C CNN
+F 1 "`" H 7750 2100 50  0000 C CNN
+F 2 "" H 7750 2400 50  0001 C CNN
+F 3 "~" H 7750 2400 50  0001 C CNN
+	1    7750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2200 7550 1900
+$Comp
+L Device:D D?
+U 1 1 619A6494
+P 8100 2200
+F 0 "D?" H 8100 2000 50  0000 C CNN
+F 1 "Diode" H 8100 2300 50  0000 C CNN
+F 2 "" H 8100 2200 50  0001 C CNN
+F 3 "~" H 8100 2200 50  0001 C CNN
+	1    8100 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 619A648A
+P 8550 2200
+F 0 "SW?" H 8550 2400 50  0000 C CNN
+F 1 "1" H 8550 2100 50  0000 C CNN
+F 2 "" H 8550 2400 50  0001 C CNN
+F 3 "~" H 8550 2400 50  0001 C CNN
+	1    8550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2200 8350 1900
+$Comp
+L Device:D D?
+U 1 1 617710AC
+P 8900 2200
+F 0 "D?" H 8900 2000 50  0000 C CNN
+F 1 "Diode" H 8900 2300 50  0000 C CNN
+F 2 "" H 8900 2200 50  0001 C CNN
+F 3 "~" H 8900 2200 50  0001 C CNN
+	1    8900 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61771082
+P 6650 2200
+F 0 "SW?" H 6650 2400 50  0000 C CNN
+F 1 "ESC" H 6650 2100 50  0000 C CNN
+F 2 "" H 6650 2400 50  0001 C CNN
+F 3 "~" H 6650 2400 50  0001 C CNN
+	1    6650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2200 6450 1900
+$Comp
+L Device:D D?
+U 1 1 61785417
+P 7000 2200
+F 0 "D?" H 7000 2000 50  0000 C CNN
+F 1 "Diode" H 7000 2300 50  0000 C CNN
+F 2 "" H 7000 2200 50  0001 C CNN
+F 3 "~" H 7000 2200 50  0001 C CNN
+	1    7000 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6177109A
+P 10950 2200
+F 0 "SW?" H 10950 2400 50  0000 C CNN
+F 1 "4" H 10950 2100 50  0000 C CNN
+F 2 "" H 10950 2400 50  0001 C CNN
+F 3 "~" H 10950 2400 50  0001 C CNN
+	1    10950 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 2200 10750 1900
+$Comp
+L Device:D D?
+U 1 1 6178541D
+P 11300 2200
+F 0 "D?" H 11300 2000 50  0000 C CNN
+F 1 "Diode" H 11300 2300 50  0000 C CNN
+F 2 "" H 11300 2200 50  0001 C CNN
+F 3 "~" H 11300 2200 50  0001 C CNN
+	1    11300 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 619AA08C
+P 11750 2200
+F 0 "SW?" H 11750 2400 50  0000 C CNN
+F 1 "5" H 11750 2100 50  0000 C CNN
+F 2 "" H 11750 2400 50  0001 C CNN
+F 3 "~" H 11750 2400 50  0001 C CNN
+	1    11750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 2200 11550 1900
+$Comp
+L Device:D D?
+U 1 1 619AA097
+P 12100 2200
+F 0 "D?" H 12100 2000 50  0000 C CNN
+F 1 "Diode" H 12100 2300 50  0000 C CNN
+F 2 "" H 12100 2200 50  0001 C CNN
+F 3 "~" H 12100 2200 50  0001 C CNN
+	1    12100 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 619AA0A1
+P 9350 2200
+F 0 "SW?" H 9350 2400 50  0000 C CNN
+F 1 "2" H 9350 2100 50  0000 C CNN
+F 2 "" H 9350 2400 50  0001 C CNN
+F 3 "~" H 9350 2400 50  0001 C CNN
+	1    9350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 2200 9150 1900
+$Comp
+L Device:D D?
+U 1 1 619AA0AC
+P 9700 2200
+F 0 "D?" H 9700 2000 50  0000 C CNN
+F 1 "Diode" H 9700 2300 50  0000 C CNN
+F 2 "" H 9700 2200 50  0001 C CNN
+F 3 "~" H 9700 2200 50  0001 C CNN
+	1    9700 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710B4
+P 10150 2200
+F 0 "SW?" H 10150 2400 50  0000 C CNN
+F 1 "3" H 10150 2100 50  0000 C CNN
+F 2 "" H 10150 2400 50  0001 C CNN
+F 3 "~" H 10150 2400 50  0001 C CNN
+	1    10150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2200 9950 1900
+$Comp
+L Device:D D?
+U 1 1 617710B5
+P 10500 2200
+F 0 "D?" H 10500 2000 50  0000 C CNN
+F 1 "Diode" H 10500 2300 50  0000 C CNN
+F 2 "" H 10500 2200 50  0001 C CNN
+F 3 "~" H 10500 2200 50  0001 C CNN
+	1    10500 2200
+	-1   0    0    1   
+$EndComp
+Connection ~ 7550 1900
+Wire Wire Line
+	7550 1900 8350 1900
+Connection ~ 8350 1900
+Wire Wire Line
+	8350 1900 9150 1900
+Connection ~ 9150 1900
+Wire Wire Line
+	9150 1900 9950 1900
+Connection ~ 9950 1900
+Wire Wire Line
+	9950 1900 10750 1900
+Connection ~ 10750 1900
+Wire Wire Line
+	10750 1900 11550 1900
+Text GLabel 6200 1900 0    50   Input ~ 0
+Key_Row0
+Connection ~ 6450 1900
+$Comp
+L Device:D D?
+U 1 1 61785425
+P 8100 3000
+F 0 "D?" H 8100 2800 50  0000 C CNN
+F 1 "Diode" H 8100 3100 50  0000 C CNN
+F 2 "" H 8100 3000 50  0001 C CNN
+F 3 "~" H 8100 3000 50  0001 C CNN
+	1    8100 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6177109D
+P 6650 3000
+F 0 "SW?" H 6650 3200 50  0000 C CNN
+F 1 "Macro 1" H 6650 2900 50  0000 C CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3000 6450 2700
+$Comp
+L Device:D D?
+U 1 1 6177109E
+P 7000 3000
+F 0 "D?" H 7000 2800 50  0000 C CNN
+F 1 "Diode" H 7000 3100 50  0000 C CNN
+F 2 "" H 7000 3000 50  0001 C CNN
+F 3 "~" H 7000 3000 50  0001 C CNN
+	1    7000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6177109F
+P 10950 3000
+F 0 "SW?" H 10950 3200 50  0000 C CNN
+F 1 "E" H 10950 2900 50  0000 C CNN
+F 2 "" H 10950 3200 50  0001 C CNN
+F 3 "~" H 10950 3200 50  0001 C CNN
+	1    10950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3000 10750 2700
+$Comp
+L Device:D D?
+U 1 1 617710A0
+P 11300 3000
+F 0 "D?" H 11300 2800 50  0000 C CNN
+F 1 "Diode" H 11300 3100 50  0000 C CNN
+F 2 "" H 11300 3000 50  0001 C CNN
+F 3 "~" H 11300 3000 50  0001 C CNN
+	1    11300 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6178542A
+P 11750 3000
+F 0 "SW?" H 11750 3200 50  0000 C CNN
+F 1 "R" H 11750 2900 50  0000 C CNN
+F 2 "" H 11750 3200 50  0001 C CNN
+F 3 "~" H 11750 3200 50  0001 C CNN
+	1    11750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 3000 11550 2700
+$Comp
+L Device:D D?
+U 1 1 6178542B
+P 12100 3000
+F 0 "D?" H 12100 2800 50  0000 C CNN
+F 1 "Diode" H 12100 3100 50  0000 C CNN
+F 2 "" H 12100 3000 50  0001 C CNN
+F 3 "~" H 12100 3000 50  0001 C CNN
+	1    12100 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61A00B64
+P 9350 3000
+F 0 "SW?" H 9350 3200 50  0000 C CNN
+F 1 "Q" H 9350 2900 50  0000 C CNN
+F 2 "" H 9350 3200 50  0001 C CNN
+F 3 "~" H 9350 3200 50  0001 C CNN
+	1    9350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3000 9150 2700
+$Comp
+L Device:D D?
+U 1 1 61A00B6F
+P 9700 3000
+F 0 "D?" H 9700 2800 50  0000 C CNN
+F 1 "Diode" H 9700 3100 50  0000 C CNN
+F 2 "" H 9700 3000 50  0001 C CNN
+F 3 "~" H 9700 3000 50  0001 C CNN
+	1    9700 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710A3
+P 10150 3000
+F 0 "SW?" H 10150 3200 50  0000 C CNN
+F 1 "W" H 10150 2900 50  0000 C CNN
+F 2 "" H 10150 3200 50  0001 C CNN
+F 3 "~" H 10150 3200 50  0001 C CNN
+	1    10150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3000 9950 2700
+$Comp
+L Device:D D?
+U 1 1 617710A4
+P 10500 3000
+F 0 "D?" H 10500 2800 50  0000 C CNN
+F 1 "Diode" H 10500 3100 50  0000 C CNN
+F 2 "" H 10500 3000 50  0001 C CNN
+F 3 "~" H 10500 3000 50  0001 C CNN
+	1    10500 3000
+	-1   0    0    1   
+$EndComp
+Connection ~ 9150 2700
+Wire Wire Line
+	9150 2700 9950 2700
+Connection ~ 9950 2700
+Wire Wire Line
+	9950 2700 10750 2700
+Connection ~ 10750 2700
+Wire Wire Line
+	10750 2700 11550 2700
+Text GLabel 6200 2700 0    50   Input ~ 0
+Key_Row1
+Connection ~ 6450 2700
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61A6CE54
+P 7750 3650
+F 0 "SW?" H 7750 3850 50  0000 C CNN
+F 1 "Caps Lock" H 7750 3550 50  0000 C CNN
+F 2 "" H 7750 3850 50  0001 C CNN
+F 3 "~" H 7750 3850 50  0001 C CNN
+	1    7750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3650 7550 3350
+$Comp
+L Device:D D?
+U 1 1 61A6CE5F
+P 8100 3650
+F 0 "D?" H 8100 3450 50  0000 C CNN
+F 1 "Diode" H 8100 3750 50  0000 C CNN
+F 2 "" H 8100 3650 50  0001 C CNN
+F 3 "~" H 8100 3650 50  0001 C CNN
+	1    8100 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710BB
+P 6650 3650
+F 0 "SW?" H 6650 3850 50  0000 C CNN
+F 1 "Macro 2" H 6650 3550 50  0000 C CNN
+F 2 "" H 6650 3850 50  0001 C CNN
+F 3 "~" H 6650 3850 50  0001 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3650 6450 3350
+$Comp
+L Device:D D?
+U 1 1 617710BC
+P 7000 3650
+F 0 "D?" H 7000 3450 50  0000 C CNN
+F 1 "Diode" H 7000 3750 50  0000 C CNN
+F 2 "" H 7000 3650 50  0001 C CNN
+F 3 "~" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710BD
+P 10950 3650
+F 0 "SW?" H 10950 3850 50  0000 C CNN
+F 1 "D" H 10950 3550 50  0000 C CNN
+F 2 "" H 10950 3850 50  0001 C CNN
+F 3 "~" H 10950 3850 50  0001 C CNN
+	1    10950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3650 10750 3350
+$Comp
+L Device:D D?
+U 1 1 617710BE
+P 11300 3650
+F 0 "D?" H 11300 3450 50  0000 C CNN
+F 1 "Diode" H 11300 3750 50  0000 C CNN
+F 2 "" H 11300 3650 50  0001 C CNN
+F 3 "~" H 11300 3650 50  0001 C CNN
+	1    11300 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61785436
+P 11750 3650
+F 0 "SW?" H 11750 3850 50  0000 C CNN
+F 1 "F" H 11750 3550 50  0000 C CNN
+F 2 "" H 11750 3850 50  0001 C CNN
+F 3 "~" H 11750 3850 50  0001 C CNN
+	1    11750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 3650 11550 3350
+$Comp
+L Device:D D?
+U 1 1 61785437
+P 12100 3650
+F 0 "D?" H 12100 3450 50  0000 C CNN
+F 1 "Diode" H 12100 3750 50  0000 C CNN
+F 2 "" H 12100 3650 50  0001 C CNN
+F 3 "~" H 12100 3650 50  0001 C CNN
+	1    12100 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61785438
+P 9350 3650
+F 0 "SW?" H 9350 3850 50  0000 C CNN
+F 1 "A" H 9350 3550 50  0000 C CNN
+F 2 "" H 9350 3850 50  0001 C CNN
+F 3 "~" H 9350 3850 50  0001 C CNN
+	1    9350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3650 9150 3350
+$Comp
+L Device:D D?
+U 1 1 61785439
+P 9700 3650
+F 0 "D?" H 9700 3450 50  0000 C CNN
+F 1 "Diode" H 9700 3750 50  0000 C CNN
+F 2 "" H 9700 3650 50  0001 C CNN
+F 3 "~" H 9700 3650 50  0001 C CNN
+	1    9700 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6178543A
+P 10150 3650
+F 0 "SW?" H 10150 3850 50  0000 C CNN
+F 1 "S" H 10150 3550 50  0000 C CNN
+F 2 "" H 10150 3850 50  0001 C CNN
+F 3 "~" H 10150 3850 50  0001 C CNN
+	1    10150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3650 9950 3350
+$Comp
+L Device:D D?
+U 1 1 61A6CEF2
+P 10500 3650
+F 0 "D?" H 10500 3450 50  0000 C CNN
+F 1 "Diode" H 10500 3750 50  0000 C CNN
+F 2 "" H 10500 3650 50  0001 C CNN
+F 3 "~" H 10500 3650 50  0001 C CNN
+	1    10500 3650
+	-1   0    0    1   
+$EndComp
+Connection ~ 7550 3350
+Connection ~ 9150 3350
+Wire Wire Line
+	9150 3350 9950 3350
+Connection ~ 9950 3350
+Wire Wire Line
+	9950 3350 10750 3350
+Connection ~ 10750 3350
+Wire Wire Line
+	10750 3350 11550 3350
+Text GLabel 6200 3350 0    50   Input ~ 0
+Key_Row2
+Connection ~ 6450 3350
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710C0
+P 7750 4300
+F 0 "SW?" H 7750 4500 50  0000 C CNN
+F 1 "Shift" H 7750 4200 50  0000 C CNN
+F 2 "" H 7750 4500 50  0001 C CNN
+F 3 "~" H 7750 4500 50  0001 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4300 7550 4000
+$Comp
+L Device:D D?
+U 1 1 61A6CF17
+P 8100 4300
+F 0 "D?" H 8100 4100 50  0000 C CNN
+F 1 "Diode" H 8100 4400 50  0000 C CNN
+F 2 "" H 8100 4300 50  0001 C CNN
+F 3 "~" H 8100 4300 50  0001 C CNN
+	1    8100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710C2
+P 6650 4300
+F 0 "SW?" H 6650 4500 50  0000 C CNN
+F 1 "Macro 3" H 6650 4200 50  0000 C CNN
+F 2 "" H 6650 4500 50  0001 C CNN
+F 3 "~" H 6650 4500 50  0001 C CNN
+	1    6650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4300 6450 4000
+$Comp
+L Device:D D?
+U 1 1 617710C3
+P 7000 4300
+F 0 "D?" H 7000 4100 50  0000 C CNN
+F 1 "Diode" H 7000 4400 50  0000 C CNN
+F 2 "" H 7000 4300 50  0001 C CNN
+F 3 "~" H 7000 4300 50  0001 C CNN
+	1    7000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710C4
+P 10950 4300
+F 0 "SW?" H 10950 4500 50  0000 C CNN
+F 1 "C" H 10950 4200 50  0000 C CNN
+F 2 "" H 10950 4500 50  0001 C CNN
+F 3 "~" H 10950 4500 50  0001 C CNN
+	1    10950 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4300 10750 4000
+$Comp
+L Device:D D?
+U 1 1 617710AA
+P 11300 4300
+F 0 "D?" H 11300 4100 50  0000 C CNN
+F 1 "Diode" H 11300 4400 50  0000 C CNN
+F 2 "" H 11300 4300 50  0001 C CNN
+F 3 "~" H 11300 4300 50  0001 C CNN
+	1    11300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710C5
+P 9350 4300
+F 0 "SW?" H 9350 4500 50  0000 C CNN
+F 1 "Z" H 9350 4200 50  0000 C CNN
+F 2 "" H 9350 4500 50  0001 C CNN
+F 3 "~" H 9350 4500 50  0001 C CNN
+	1    9350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4300 9150 4000
+$Comp
+L Device:D D?
+U 1 1 617710AB
+P 9700 4300
+F 0 "D?" H 9700 4100 50  0000 C CNN
+F 1 "Diode" H 9700 4400 50  0000 C CNN
+F 2 "" H 9700 4300 50  0001 C CNN
+F 3 "~" H 9700 4300 50  0001 C CNN
+	1    9700 4300
+	-1   0    0    1   
+$EndComp
+Connection ~ 7550 4000
+Connection ~ 9150 4000
+Connection ~ 10750 4000
+Text GLabel 6200 4000 0    50   Input ~ 0
+Key_Row3
+Connection ~ 6450 4000
+Connection ~ 7550 2700
+Wire Wire Line
+	7550 3000 7550 2700
+$Comp
+L Switch:SW_Push SW?
+U 1 1 617710B6
+P 7750 3000
+F 0 "SW?" H 7750 3200 50  0000 C CNN
+F 1 "Tab" H 7750 2900 50  0000 C CNN
+F 2 "" H 7750 3200 50  0001 C CNN
+F 3 "~" H 7750 3200 50  0001 C CNN
+	1    7750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1900 6450 1900
+Wire Wire Line
+	6200 2700 6450 2700
+Wire Wire Line
+	6200 3350 6450 3350
+Wire Wire Line
+	6200 4000 6450 4000
+Wire Wire Line
+	6450 1900 7550 1900
+Wire Wire Line
+	6450 2700 7550 2700
+Wire Wire Line
+	6450 3350 7550 3350
+Wire Wire Line
+	6450 4000 7550 4000
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61771083
+P 12600 2200
+F 0 "SW?" H 12600 2400 50  0000 C CNN
+F 1 "6" H 12600 2100 50  0000 C CNN
+F 2 "" H 12600 2400 50  0001 C CNN
+F 3 "~" H 12600 2400 50  0001 C CNN
+	1    12600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61771084
+P 12950 2200
+F 0 "D?" H 12950 2000 50  0000 C CNN
+F 1 "Diode" H 12950 2300 50  0000 C CNN
+F 2 "" H 12950 2200 50  0001 C CNN
+F 3 "~" H 12950 2200 50  0001 C CNN
+	1    12950 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61771085
+P 12600 3000
+F 0 "SW?" H 12600 3200 50  0000 C CNN
+F 1 "T" H 12600 2900 50  0000 C CNN
+F 2 "" H 12600 3200 50  0001 C CNN
+F 3 "~" H 12600 3200 50  0001 C CNN
+	1    12600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61771086
+P 12950 3000
+F 0 "D?" H 12950 2800 50  0000 C CNN
+F 1 "Diode" H 12950 3100 50  0000 C CNN
+F 2 "" H 12950 3000 50  0001 C CNN
+F 3 "~" H 12950 3000 50  0001 C CNN
+	1    12950 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61771087
+P 12600 3650
+F 0 "SW?" H 12600 3850 50  0000 C CNN
+F 1 "G" H 12600 3550 50  0000 C CNN
+F 2 "" H 12600 3850 50  0001 C CNN
+F 3 "~" H 12600 3850 50  0001 C CNN
+	1    12600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61771092
+P 12950 3650
+F 0 "D?" H 12950 3450 50  0000 C CNN
+F 1 "Diode" H 12950 3750 50  0000 C CNN
+F 2 "" H 12950 3650 50  0001 C CNN
+F 3 "~" H 12950 3650 50  0001 C CNN
+	1    12950 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11550 1900 12400 1900
+Wire Wire Line
+	12400 1900 12400 2200
+Connection ~ 11550 1900
+Connection ~ 12400 2200
+Connection ~ 12400 3000
+Wire Wire Line
+	12400 3000 12400 3350
+Connection ~ 12400 3650
+Wire Wire Line
+	12400 3650 12400 4000
+Wire Wire Line
+	11550 2700 12400 2700
+Wire Wire Line
+	12400 2200 12400 2700
+Connection ~ 11550 2700
+Connection ~ 12400 2700
+Wire Wire Line
+	12400 2700 12400 3000
+Wire Wire Line
+	11550 3350 12400 3350
+Connection ~ 11550 3350
+Connection ~ 12400 3350
+Wire Wire Line
+	12400 3350 12400 3650
+Wire Wire Line
+	7550 2700 9150 2700
+Wire Wire Line
+	9150 4000 9950 4000
+Wire Wire Line
+	10750 4000 11550 4000
+Wire Wire Line
+	7550 3350 9150 3350
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61771088
+P 10150 4300
+F 0 "SW?" H 10150 4500 50  0000 C CNN
+F 1 "X" H 10150 4200 50  0000 C CNN
+F 2 "" H 10150 4500 50  0001 C CNN
+F 3 "~" H 10150 4500 50  0001 C CNN
+	1    10150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4300 9950 4000
+$Comp
+L Device:D D?
+U 1 1 61771093
+P 10500 4300
+F 0 "D?" H 10500 4100 50  0000 C CNN
+F 1 "Diode" H 10500 4400 50  0000 C CNN
+F 2 "" H 10500 4300 50  0001 C CNN
+F 3 "~" H 10500 4300 50  0001 C CNN
+	1    10500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61771094
+P 11750 4300
+F 0 "SW?" H 11750 4500 50  0000 C CNN
+F 1 "V" H 11750 4200 50  0000 C CNN
+F 2 "" H 11750 4500 50  0001 C CNN
+F 3 "~" H 11750 4500 50  0001 C CNN
+	1    11750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 4300 11550 4000
+$Comp
+L Device:D D?
+U 1 1 61771095
+P 12100 4300
+F 0 "D?" H 12100 4100 50  0000 C CNN
+F 1 "Diode" H 12100 4400 50  0000 C CNN
+F 2 "" H 12100 4300 50  0001 C CNN
+F 3 "~" H 12100 4300 50  0001 C CNN
+	1    12100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6175B105
+P 12600 4300
+F 0 "SW?" H 12600 4500 50  0000 C CNN
+F 1 "B" H 12600 4200 50  0000 C CNN
+F 2 "" H 12600 4500 50  0001 C CNN
+F 3 "~" H 12600 4500 50  0001 C CNN
+	1    12600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 4300 12400 4000
+$Comp
+L Device:D D?
+U 1 1 6177108A
+P 12950 4300
+F 0 "D?" H 12950 4100 50  0000 C CNN
+F 1 "Diode" H 12950 4400 50  0000 C CNN
+F 2 "" H 12950 4300 50  0001 C CNN
+F 3 "~" H 12950 4300 50  0001 C CNN
+	1    12950 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 4000 9150 4000
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6177108B
+P 7750 4950
+F 0 "SW?" H 7750 5150 50  0000 C CNN
+F 1 "LCtrl" H 7750 4850 50  0000 C CNN
+F 2 "" H 7750 5150 50  0001 C CNN
+F 3 "~" H 7750 5150 50  0001 C CNN
+	1    7750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4950 7550 4650
+$Comp
+L Device:D D?
+U 1 1 61760BB8
+P 8100 4950
+F 0 "D?" H 8100 4750 50  0000 C CNN
+F 1 "Diode" H 8100 5050 50  0000 C CNN
+F 2 "" H 8100 4950 50  0001 C CNN
+F 3 "~" H 8100 4950 50  0001 C CNN
+	1    8100 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61760BC2
+P 6650 4950
+F 0 "SW?" H 6650 5150 50  0000 C CNN
+F 1 "Macro 4" H 6650 4850 50  0000 C CNN
+F 2 "" H 6650 5150 50  0001 C CNN
+F 3 "~" H 6650 5150 50  0001 C CNN
+	1    6650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4950 6450 4650
+$Comp
+L Device:D D?
+U 1 1 61760BCD
+P 7000 4950
+F 0 "D?" H 7000 4750 50  0000 C CNN
+F 1 "Diode" H 7000 5050 50  0000 C CNN
+F 2 "" H 7000 4950 50  0001 C CNN
+F 3 "~" H 7000 4950 50  0001 C CNN
+	1    7000 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61760BD7
+P 10950 4950
+F 0 "SW?" H 10950 5150 50  0000 C CNN
+F 1 "Spacebar" H 10950 4850 50  0000 C CNN
+F 2 "" H 10950 5150 50  0001 C CNN
+F 3 "~" H 10950 5150 50  0001 C CNN
+	1    10950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4950 10750 4650
+$Comp
+L Device:D D?
+U 1 1 61760BE2
+P 11300 4950
+F 0 "D?" H 11300 4750 50  0000 C CNN
+F 1 "Diode" H 11300 5050 50  0000 C CNN
+F 2 "" H 11300 4950 50  0001 C CNN
+F 3 "~" H 11300 4950 50  0001 C CNN
+	1    11300 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61771096
+P 9350 4950
+F 0 "SW?" H 9350 5150 50  0000 C CNN
+F 1 "LAlt" H 9350 4850 50  0000 C CNN
+F 2 "" H 9350 5150 50  0001 C CNN
+F 3 "~" H 9350 5150 50  0001 C CNN
+	1    9350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4950 9150 4650
+$Comp
+L Device:D D?
+U 1 1 61771097
+P 9700 4950
+F 0 "D?" H 9700 4750 50  0000 C CNN
+F 1 "Diode" H 9700 5050 50  0000 C CNN
+F 2 "" H 9700 4950 50  0001 C CNN
+F 3 "~" H 9700 4950 50  0001 C CNN
+	1    9700 4950
+	-1   0    0    1   
+$EndComp
+Connection ~ 7550 4650
+Connection ~ 9150 4650
+Connection ~ 10750 4650
+Text GLabel 6200 4650 0    50   Input ~ 0
+Key_Row4
+Connection ~ 6450 4650
+Wire Wire Line
+	6200 4650 6450 4650
+Wire Wire Line
+	6450 4650 7550 4650
+Wire Wire Line
+	12400 4300 12400 4650
+Wire Wire Line
+	7550 4650 8350 4650
+Connection ~ 12400 4300
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61785415
+P 8550 4950
+F 0 "SW?" H 8550 5150 50  0000 C CNN
+F 1 "Win" H 8550 4850 50  0000 C CNN
+F 2 "" H 8550 5150 50  0001 C CNN
+F 3 "~" H 8550 5150 50  0001 C CNN
+	1    8550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4950 8350 4650
+$Comp
+L Device:D D?
+U 1 1 6176ABC7
+P 8900 4950
+F 0 "D?" H 8900 4750 50  0000 C CNN
+F 1 "Diode" H 8900 5050 50  0000 C CNN
+F 2 "" H 8900 4950 50  0001 C CNN
+F 3 "~" H 8900 4950 50  0001 C CNN
+	1    8900 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9150 4650 10750 4650
+Wire Wire Line
+	10750 4650 12400 4650
+Text GLabel 7150 5400 3    50   Input ~ 0
+Col0
+Text GLabel 8250 5400 3    50   Input ~ 0
+Col1
+Text GLabel 9050 5400 3    50   Input ~ 0
+Col2
+Text GLabel 9850 5400 3    50   Input ~ 0
+Col3
+Text GLabel 10650 5400 3    50   Input ~ 0
+Col4
+Text GLabel 11450 5400 3    50   Input ~ 0
+Col5
+Text GLabel 12250 5400 3    50   Input ~ 0
+Col6
+Text GLabel 13100 5400 3    50   Input ~ 0
+Col7
+Wire Wire Line
+	7150 2200 7150 3000
+Connection ~ 7150 3000
+Wire Wire Line
+	7150 3000 7150 3650
+Connection ~ 7150 3650
+Wire Wire Line
+	7150 3650 7150 4300
+Connection ~ 7150 4300
+Wire Wire Line
+	7150 4300 7150 4950
+Connection ~ 7150 4950
+Wire Wire Line
+	7150 4950 7150 5400
+Wire Wire Line
+	8250 2200 8250 3000
+Connection ~ 8250 3000
+Wire Wire Line
+	8250 3000 8250 3650
+Connection ~ 8250 3650
+Wire Wire Line
+	8250 3650 8250 4300
+Connection ~ 8250 4300
+Wire Wire Line
+	8250 4300 8250 4950
+Connection ~ 8250 4950
+Wire Wire Line
+	8250 4950 8250 5400
+Wire Wire Line
+	9050 2200 9050 4950
+Connection ~ 9050 4950
+Wire Wire Line
+	9050 4950 9050 5400
+Wire Wire Line
+	9850 2200 9850 3000
+Connection ~ 9850 3000
+Wire Wire Line
+	9850 3000 9850 3650
+Connection ~ 9850 3650
+Wire Wire Line
+	9850 3650 9850 4300
+Connection ~ 9850 4300
+Wire Wire Line
+	9850 4300 9850 4950
+Connection ~ 9850 4950
+Wire Wire Line
+	9850 4950 9850 5400
+Wire Wire Line
+	10650 2200 10650 3000
+Connection ~ 10650 3000
+Wire Wire Line
+	10650 3000 10650 3650
+Connection ~ 10650 3650
+Wire Wire Line
+	10650 3650 10650 4300
+Connection ~ 10650 4300
+Wire Wire Line
+	10650 4300 10650 5400
+Wire Wire Line
+	11450 2200 11450 3000
+Connection ~ 11450 3000
+Wire Wire Line
+	11450 3000 11450 3650
+Connection ~ 11450 3650
+Wire Wire Line
+	11450 3650 11450 4300
+Connection ~ 11450 4300
+Wire Wire Line
+	11450 4300 11450 4950
+Connection ~ 11450 4950
+Wire Wire Line
+	11450 4950 11450 5400
+Wire Wire Line
+	12250 2200 12250 3000
+Connection ~ 12250 3000
+Wire Wire Line
+	12250 3000 12250 3650
+Connection ~ 12250 3650
+Wire Wire Line
+	12250 3650 12250 4300
+Connection ~ 12250 4300
+Wire Wire Line
+	12250 4300 12250 5400
+Wire Wire Line
+	13100 2200 13100 3000
+Connection ~ 13100 3000
+Wire Wire Line
+	13100 3000 13100 3650
+Connection ~ 13100 3650
+Wire Wire Line
+	13100 3650 13100 4300
+Connection ~ 13100 4300
+Wire Wire Line
+	13100 4300 13100 5400
+Connection ~ 8350 4650
+Wire Wire Line
+	8350 4650 9150 4650
+Connection ~ 9950 4000
+Wire Wire Line
+	9950 4000 10750 4000
+Connection ~ 11550 4000
+Wire Wire Line
+	11550 4000 12400 4000
+Connection ~ 12400 4000
+$Comp
+L quefrency-left-macro-cache:spectrogram-left-rescue_TRRS-keebio U?
+U 1 1 6161D5C9
+P 2250 5150
+F 0 "U?" H 2478 5453 60  0000 L CNN
+F 1 "TRRS" H 2478 5347 60  0000 L CNN
+F 2 "" H 2400 5150 60  0001 C CNN
+F 3 "" H 2400 5150 60  0001 C CNN
+	1    2250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L quefrency-left-macro-cache:keebio_ProMicro U?
+U 1 1 61623CF8
+P 2150 3250
+F 0 "U?" H 2150 4087 60  0000 C CNN
+F 1 "Pro Micro" H 2150 3981 60  0000 C CNN
+F 2 "" V 3200 750 60  0001 C CNN
+F 3 "" V 3200 750 60  0001 C CNN
+	1    2150 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 2700 0    50   Input ~ 0
+RGB
+Text GLabel 1450 3100 0    50   Input ~ 0
+Data2
+Text GLabel 1450 3200 0    50   Input ~ 0
+Data
+Text GLabel 1450 3300 0    50   Input ~ 0
+Row1
+Text GLabel 1450 3500 0    50   Input ~ 0
+Row2
+Text GLabel 1450 3600 0    50   Input ~ 0
+Row3
+Text GLabel 1450 3700 0    50   Input ~ 0
+Row4
+Text GLabel 1450 3800 0    50   Input ~ 0
+Col0
+Text GLabel 2850 2900 2    50   Input ~ 0
+RESET
+Text GLabel 2850 3100 2    50   Input ~ 0
+Row0
+Text GLabel 2850 3200 2    50   Input ~ 0
+Col1
+Text GLabel 2850 3300 2    50   Input ~ 0
+Col2
+Text GLabel 2850 3400 2    50   Input ~ 0
+Col3
+Text GLabel 2850 3500 2    50   Input ~ 0
+Col4
+Text GLabel 2850 3600 2    50   Input ~ 0
+Col5
+Text GLabel 2850 3700 2    50   Input ~ 0
+Col6
+Text GLabel 2850 3800 2    50   Input ~ 0
+Col7
+$Comp
+L power:VCC #PWR?
+U 1 1 6163BB88
+P 2850 3000
+F 0 "#PWR?" H 2850 2850 50  0001 C CNN
+F 1 "VCC" V 2867 3128 50  0000 L CNN
+F 2 "" H 2850 3000 50  0001 C CNN
+F 3 "" H 2850 3000 50  0001 C CNN
+	1    2850 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6163C8E9
+P 1450 2800
+F 0 "#PWR?" H 1450 2650 50  0001 C CNN
+F 1 "VCC" V 1468 2927 50  0000 L CNN
+F 2 "" H 1450 2800 50  0001 C CNN
+F 3 "" H 1450 2800 50  0001 C CNN
+	1    1450 2800
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2850 2700
+$Comp
+L power:GND #PWR?
+U 1 1 6163D11F
+P 2850 2800
+F 0 "#PWR?" H 2850 2550 50  0001 C CNN
+F 1 "GND" V 2855 2672 50  0000 R CNN
+F 2 "" H 2850 2800 50  0001 C CNN
+F 3 "" H 2850 2800 50  0001 C CNN
+	1    2850 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6163E084
+P 1450 2900
+F 0 "#PWR?" H 1450 2650 50  0001 C CNN
+F 1 "GND" V 1455 2772 50  0000 R CNN
+F 2 "" H 1450 2900 50  0001 C CNN
+F 3 "" H 1450 2900 50  0001 C CNN
+	1    1450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6163EB91
+P 1450 3000
+F 0 "#PWR?" H 1450 2750 50  0001 C CNN
+F 1 "GND" V 1455 2872 50  0000 R CNN
+F 2 "" H 1450 3000 50  0001 C CNN
+F 3 "" H 1450 3000 50  0001 C CNN
+	1    1450 3000
+	0    1    1    0   
+$EndComp
+Text GLabel 1900 4850 0    50   Input ~ 0
+Data
+Text GLabel 1900 4950 0    50   Input ~ 0
+Data2
+$Comp
+L power:GND #PWR?
+U 1 1 6163FB2B
+P 1900 5050
+F 0 "#PWR?" H 1900 4800 50  0001 C CNN
+F 1 "GND" H 1905 4877 50  0000 C CNN
+F 2 "" H 1900 5050 50  0001 C CNN
+F 3 "" H 1900 5050 50  0001 C CNN
+	1    1900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61640714
+P 1900 4750
+F 0 "#PWR?" H 1900 4600 50  0001 C CNN
+F 1 "VCC" H 1917 4923 50  0000 C CNN
+F 2 "" H 1900 4750 50  0001 C CNN
+F 3 "" H 1900 4750 50  0001 C CNN
+	1    1900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L quefrency-left-macro-cache:Switch_SW_Push SW?
+U 1 1 6162075F
+P 3200 1750
+F 0 "SW?" H 3200 1943 50  0000 C CNN
+F 1 "~" H 3200 1944 50  0000 C CNN
+F 2 "" H 3200 1950 50  0001 C CNN
+F 3 "" H 3200 1950 50  0001 C CNN
+	1    3200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61622264
+P 3400 1750
+F 0 "#PWR?" H 3400 1500 50  0001 C CNN
+F 1 "GND" H 3405 1577 50  0000 C CNN
+F 2 "" H 3400 1750 50  0001 C CNN
+F 3 "" H 3400 1750 50  0001 C CNN
+	1    3400 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 1750 0    50   Input ~ 0
+RESET
+$EndSCHEMATC
