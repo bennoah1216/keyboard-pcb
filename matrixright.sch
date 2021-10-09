@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:pcb-build-cache
-LIBS:keyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1104,23 +1103,23 @@ Connection ~ 7400 3450
 Wire Wire Line
 	7400 3450 8300 3450
 Text GLabel 2000 4250 3    50   Input ~ 0
-Col1
+Col0
 Text GLabel 2850 4250 3    50   Input ~ 0
-Col2
+Col1
 Text GLabel 3650 4250 3    50   Input ~ 0
-Col3
+Col2
 Text GLabel 4450 4250 3    50   Input ~ 0
-Col4
+Col3
 Text GLabel 5250 4250 3    50   Input ~ 0
-Col5
+Col4
 Text GLabel 6050 4250 3    50   Input ~ 0
-Col6
+Col5
 Text GLabel 7300 4250 3    50   Input ~ 0
-Col7
+Col6
 Text GLabel 8100 4250 3    50   Input ~ 0
-Col8
+Col7
 Text GLabel 9000 4250 3    50   Input ~ 0
-Col9
+Col8
 Wire Wire Line
 	4450 3750 4450 4250
 Connection ~ 4450 3750

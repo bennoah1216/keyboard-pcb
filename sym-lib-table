@@ -3,4 +3,8 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Type-C.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-rescue.lib)(options "")(descr ""))
+  (lib (name Lily58_Pro)(type Legacy)(uri ${KIPRJMOD}/Lily58-master/Pro/PCB/Lily58_Pro.lib)(options "")(descr "")(disabled))
+  (lib (name quefrency-left-macro-cache)(type Legacy)(uri ${KIPRJMOD}/quefrency-rev1-pcb/spectrogram-left/quefrency-left-macro-cache.lib)(options "")(descr ""))
+  (lib (name spectrogram-right-cache)(type Legacy)(uri ${KIPRJMOD}/quefrency-rev1-pcb/spectrogram-right/spectrogram-right-cache.lib)(options "")(descr ""))
+  (lib (name Lily58_Pro-cache)(type Legacy)(uri ${KIPRJMOD}/Lily58-master/Pro/PCB/Lily58_Pro-cache.lib)(options "")(descr ""))
 )
