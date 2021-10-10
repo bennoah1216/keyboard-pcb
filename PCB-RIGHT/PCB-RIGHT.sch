@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:pcb-build-cache
+LIBS:PCB-RIGHT-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1056,7 +1056,7 @@ Text GLabel 11200 5100 3    50   Input ~ 0
 Col5
 Text GLabel 12000 5100 3    50   Input ~ 0
 Col6
-Text GLabel 13250 5100 3    50   Input ~ 0
+Text GLabel 12850 5100 3    50   Input ~ 0
 Col7
 Text GLabel 13750 5100 3    50   Input ~ 0
 Col8
@@ -1135,17 +1135,6 @@ Connection ~ 8100 3650
 Wire Wire Line
 	8100 3650 8900 3650
 Connection ~ 9700 4300
-$Comp
-L quefrency-left-macro-cache:spectrogram-left-rescue_TRRS-keebio U?
-U 1 1 6161D5C9
-P 2250 5150
-F 0 "U?" H 2478 5453 60  0000 L CNN
-F 1 "TRRS" H 2478 5347 60  0000 L CNN
-F 2 "" H 2400 5150 60  0001 C CNN
-F 3 "" H 2400 5150 60  0001 C CNN
-	1    2250 5150
-	1    0    0    -1  
-$EndComp
 Text GLabel 1450 2700 0    50   Input ~ 0
 RGB
 Text GLabel 1450 3100 0    50   Input ~ 0
@@ -1220,32 +1209,6 @@ F 2 "" H 1450 3000 50  0001 C CNN
 F 3 "" H 1450 3000 50  0001 C CNN
 	1    1450 3000
 	0    1    1    0   
-$EndComp
-Text GLabel 1900 4850 0    50   Input ~ 0
-Data
-Text GLabel 1900 4950 0    50   Input ~ 0
-Data2
-$Comp
-L power:GND #PWR?
-U 1 1 6163FB2B
-P 1900 5050
-F 0 "#PWR?" H 1900 4800 50  0001 C CNN
-F 1 "GND" H 1905 4877 50  0000 C CNN
-F 2 "" H 1900 5050 50  0001 C CNN
-F 3 "" H 1900 5050 50  0001 C CNN
-	1    1900 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 61640714
-P 1900 4750
-F 0 "#PWR?" H 1900 4600 50  0001 C CNN
-F 1 "VCC" H 1917 4923 50  0000 C CNN
-F 2 "" H 1900 4750 50  0001 C CNN
-F 3 "" H 1900 4750 50  0001 C CNN
-	1    1900 4750
-	1    0    0    -1  
 $EndComp
 $Comp
 L quefrency-left-macro-cache:Switch_SW_Push SW?
@@ -1364,4 +1327,37 @@ Wire Wire Line
 	13750 3000 13750 3300
 Wire Wire Line
 	13050 1850 13050 1550
+$Comp
+L Lily58_Pro-cache:Lily58-cache_OLED J?
+U 1 1 61629047
+P 1300 5500
+F 0 "J?" H 1378 5541 50  0000 L CNN
+F 1 "Lily58-cache_OLED" H 1378 5450 50  0000 L CNN
+F 2 "" H 1300 5500 50  0000 C CNN
+F 3 "" H 1300 5500 50  0000 C CNN
+	1    1300 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Lily58_Pro-cache:Lily58-cache_MJ-4PP-9 J?
+U 1 1 61629C8F
+P 1450 4650
+F 0 "J?" H 1483 5047 60  0000 C CNN
+F 1 "Lily58-cache_MJ-4PP-9" H 1483 4941 60  0000 C CNN
+F 2 "" H 1450 4650 60  0000 C CNN
+F 3 "" H 1450 4650 60  0000 C CNN
+	1    1450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 6162B52E
+P 3550 6250
+F 0 "SW?" H 3550 6617 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 3550 6526 50  0000 C CNN
+F 2 "" H 3400 6410 50  0001 C CNN
+F 3 "~" H 3550 6510 50  0001 C CNN
+	1    3550 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

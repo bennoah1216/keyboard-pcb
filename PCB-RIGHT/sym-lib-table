@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name quefrency-left-macro-cache)(type Legacy)(uri C:/Users/bnoah/Documents/GitHub/keyboard-pcb/quefrency-rev1-pcb/spectrogram-left/quefrency-left-macro-cache.lib)(options "")(descr ""))
+  (lib (name Lily58_Pro-cache)(type Legacy)(uri C:/Users/bnoah/Documents/GitHub/keyboard-pcb/Lily58-master/Pro/PCB/Lily58_Pro-cache.lib)(options "")(descr ""))
 )
